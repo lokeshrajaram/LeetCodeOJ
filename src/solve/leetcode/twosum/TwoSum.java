@@ -25,7 +25,6 @@ public class TwoSum {
     }
 
     public int[] twoSum(int[] numbers, int target) {
-
         int[] indices = new int[2];
         Map<Integer, Integer> lookup = new HashMap<Integer, Integer>();
 
@@ -41,5 +40,4 @@ public class TwoSum {
         }
         return indices;
     }
-
 }
